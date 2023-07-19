@@ -1,0 +1,35 @@
+/* Fonts From Google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'lato', sans-serif;
+    font-family: 'Work sans'sans-serif
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 40px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 1.8rem;
+    font-weight: 700ex;
+    color: #131311;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500px;
+    font-size: 1rem;
+
+}
+nav li a{
+    text-decoration: none;
+    color: #424242 ;
+}
